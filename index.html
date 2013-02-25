@@ -20,37 +20,34 @@
 </head>
 
 <body>
+	<!--Home Page -->
 	<div data-role="page" data-theme="a" id="home-page">
-
-        <!--<header data-role="header">
-            <h1>Page Title</h1>
-        </header>--><!-- /header -->
         <!--Saved my logo as a SVG file to save space. -->
     	<object id="logo-svg" data="imgs/logo-black.svg" type="image/svg+xml"></object>
 		<div class="ui-grid-b">
 			<div class="ui-block-a"><a href="#home-page" class="ui-btn-active" data-role="button" data-mini="true" data-icon="home" data-iconpos="top" data-corners="false" data-theme="a">Home</a></div>
 			<div class="ui-block-b"><a href="#about-page" data-role="button" data-mini="true" data-icon="edit" data-iconpos="top" data-corners="false" data-theme="a">About Me</a></div>
-			<div class="ui-block-c"><a href="#" data-role="button" data-mini="true" data-icon="search" data-iconpos="top" data-corners="false" data-theme="a">Contact</a></div>
+			<div class="ui-block-c"><a href="#contact-page" data-role="button" data-mini="true" data-icon="search" data-iconpos="top" data-corners="false" data-theme="a">Contact</a></div>
 		</div><!-- /grid-b -->
 		<div class="ui-grid-a">
-			<div class="ui-block-a"><a href="#" data-role="button" data-mini="true" data-icon="gear" data-iconpos="top" data-corners="false" data-theme="a">Projects</a></div>
-			<div class="ui-block-b"><a href="#" data-role="button" data-mini="true" data-icon="check" data-iconpos="top" data-corners="false" data-theme="a">Services</a></div>
+			<div class="ui-block-a"><a href="#projects-page" data-role="button" data-mini="true" data-icon="gear" data-iconpos="top" data-corners="false" data-theme="a">Projects</a></div>
+			<div class="ui-block-b"><a href="#services-page" data-role="button" data-mini="true" data-icon="check" data-iconpos="top" data-corners="false" data-theme="a">Services</a></div>
 		</div><!-- /grid-b -->
     	
         <section data-role="content">
-        	<p>Content!</p>
+        	<p>Here is my featured work:</p>
             <section class="slider">
 				<!--<div id="actionButton"><a href="projects.html">View more of my Projects</a></div>-->
 				<div class="flexslider">
 				  <ul class="slides">
 					<li>
-					<a href="projects.html#website"><img src="imgs/mobile.png" alt="iPhone Image"/></a>
+					<a href="#projects-page"><img src="imgs/mobile.png" alt="iPhone Image"/></a>
 					</li>
 					<li>
-					 <a href="projects.html#game"><img src="imgs/game.png" alt="Game Image"/></a>
+					 <a href="#projects-page"><img src="imgs/game.png" alt="Game Image"/></a>
 					</li>
 					<li>
-					 <a href="projects.html#youtube"><img src="imgs/youtube.png" alt="Youtube Image"/></a>
+					 <a href="#projects-page"><img src="imgs/youtube.png" alt="Youtube Image"/></a>
 					</li>
 				  </ul>
 				</div>
@@ -63,29 +60,99 @@
         </footer><!-- /footer -->
 	</div><!-- /page -->
 	
+	
+	<!--About Page -->
 	<div data-role="page" data-theme="a" id="about-page">
-        <!--<header data-role="header">
-            <h1>Page Title</h1>
-        </header>--><!-- /header -->
         <!--Saved my logo as a SVG file to save space. -->
     	<object id="logo-svg" data="imgs/logo-black.svg" type="image/svg+xml"></object>
 		<div class="ui-grid-b">
 			<div class="ui-block-a"><a href="#home-page" data-role="button" data-mini="true" data-icon="home" data-iconpos="top" data-corners="false" data-theme="a">Home</a></div>
 			<div class="ui-block-b"><a href="#about-page" class="ui-btn-active" data-role="button" data-mini="true" data-icon="edit" data-iconpos="top" data-corners="false" data-theme="a">About Me</a></div>
-			<div class="ui-block-c"><a href="#" data-role="button" data-mini="true" data-icon="search" data-iconpos="top" data-corners="false" data-theme="a">Contact</a></div>
+			<div class="ui-block-c"><a href="#contact-page" data-role="button" data-mini="true" data-icon="search" data-iconpos="top" data-corners="false" data-theme="a">Contact</a></div>
 		</div><!-- /grid-b -->
 		<div class="ui-grid-a">
-			<div class="ui-block-a"><a href="#" data-role="button" data-mini="true" data-icon="gear" data-iconpos="top" data-corners="false" data-theme="a">Projects</a></div>
-			<div class="ui-block-b"><a href="#" data-role="button" data-mini="true" data-icon="check" data-iconpos="top" data-corners="false" data-theme="a">Services</a></div>
+			<div class="ui-block-a"><a href="#projects-page" data-role="button" data-mini="true" data-icon="gear" data-iconpos="top" data-corners="false" data-theme="a">Projects</a></div>
+			<div class="ui-block-b"><a href="#services-page" data-role="button" data-mini="true" data-icon="check" data-iconpos="top" data-corners="false" data-theme="a">Services</a></div>
 		</div><!-- /grid-b -->
     	
         <section data-role="content">
-        	<p>Content!</p>
+        	<p>About Me!</p>
         </section>
     
         <footer data-role="footer">
             <h4>Copyright of Robert Foltz 2013</h4>
-            <h4><a data-rel="external" href="http://www.robertfoltz.com/test/?full=true">Full Site</a></h4>
+        </footer><!-- /footer -->
+	</div><!-- /page -->
+	
+	
+	<!--Contact Page -->
+	<div data-role="page" data-theme="a" id="contact-page">
+        <!--Saved my logo as a SVG file to save space. -->
+    	<object id="logo-svg" data="imgs/logo-black.svg" type="image/svg+xml"></object>
+		<div class="ui-grid-b">
+			<div class="ui-block-a"><a href="#home-page" data-role="button" data-mini="true" data-icon="home" data-iconpos="top" data-corners="false" data-theme="a">Home</a></div>
+			<div class="ui-block-b"><a href="#about-page" data-role="button" data-mini="true" data-icon="edit" data-iconpos="top" data-corners="false" data-theme="a">About Me</a></div>
+			<div class="ui-block-c"><a href="#contact-page" class="ui-btn-active" data-role="button" data-mini="true" data-icon="search" data-iconpos="top" data-corners="false" data-theme="a">Contact</a></div>
+		</div><!-- /grid-b -->
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><a href="#projects-page" data-role="button" data-mini="true" data-icon="gear" data-iconpos="top" data-corners="false" data-theme="a">Projects</a></div>
+			<div class="ui-block-b"><a href="#services-page" data-role="button" data-mini="true" data-icon="check" data-iconpos="top" data-corners="false" data-theme="a">Services</a></div>
+		</div><!-- /grid-b -->
+    	
+        <section data-role="content">
+        	<p>Contact Me!</p>
+        </section>
+    
+        <footer data-role="footer">
+            <h4>Copyright of Robert Foltz 2013</h4>
+        </footer><!-- /footer -->
+	</div><!-- /page -->
+	
+	
+	<!--Projects Page -->
+	<div data-role="page" data-theme="a" id="projects-page">
+        <!--Saved my logo as a SVG file to save space. -->
+    	<object id="logo-svg" data="imgs/logo-black.svg" type="image/svg+xml"></object>
+		<div class="ui-grid-b">
+			<div class="ui-block-a"><a href="#home-page" data-role="button" data-mini="true" data-icon="home" data-iconpos="top" data-corners="false" data-theme="a">Home</a></div>
+			<div class="ui-block-b"><a href="#about-page" data-role="button" data-mini="true" data-icon="edit" data-iconpos="top" data-corners="false" data-theme="a">About Me</a></div>
+			<div class="ui-block-c"><a href="#contact-page" data-role="button" data-mini="true" data-icon="search" data-iconpos="top" data-corners="false" data-theme="a">Contact</a></div>
+		</div><!-- /grid-b -->
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><a href="#projects-page" class="ui-btn-active" data-role="button" data-mini="true" data-icon="gear" data-iconpos="top" data-corners="false" data-theme="a">Projects</a></div>
+			<div class="ui-block-b"><a href="#services-page" data-role="button" data-mini="true" data-icon="check" data-iconpos="top" data-corners="false" data-theme="a">Services</a></div>
+		</div><!-- /grid-b -->
+    	
+        <section data-role="content">
+        	<p>Projects</p>
+        </section>
+    
+        <footer data-role="footer">
+            <h4>Copyright of Robert Foltz 2013</h4>
+        </footer><!-- /footer -->
+	</div><!-- /page -->
+	
+	
+	<!--Services Page -->
+	<div data-role="page" data-theme="a" id="services-page">
+        <!--Saved my logo as a SVG file to save space. -->
+    	<object id="logo-svg" data="imgs/logo-black.svg" type="image/svg+xml"></object>
+		<div class="ui-grid-b">
+			<div class="ui-block-a"><a href="#home-page" data-role="button" data-mini="true" data-icon="home" data-iconpos="top" data-corners="false" data-theme="a">Home</a></div>
+			<div class="ui-block-b"><a href="#about-page" data-role="button" data-mini="true" data-icon="edit" data-iconpos="top" data-corners="false" data-theme="a">About Me</a></div>
+			<div class="ui-block-c"><a href="#contact-page" data-role="button" data-mini="true" data-icon="search" data-iconpos="top" data-corners="false" data-theme="a">Contact</a></div>
+		</div><!-- /grid-b -->
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><a href="#projects-page" data-role="button" data-mini="true" data-icon="gear" data-iconpos="top" data-corners="false" data-theme="a">Projects</a></div>
+			<div class="ui-block-b"><a href="#services-page" class="ui-btn-active" data-role="button" data-mini="true" data-icon="check" data-iconpos="top" data-corners="false" data-theme="a">Services</a></div>
+		</div><!-- /grid-b -->
+    	
+        <section data-role="content">
+        	<p>Services</p>
+        </section>
+    
+        <footer data-role="footer">
+            <h4>Copyright of Robert Foltz 2013</h4>
         </footer><!-- /footer -->
 	</div><!-- /page -->
 	
