@@ -1,9 +1,8 @@
 /*
 Source File: main.js
 Name:Robert Foltz
-Last Modified By: Robert Foltz
 Website Name: Robert Foltz's Portfolio Web App
-File Description: This is where most of the javascript is placed for my website.
+File Description: This is where the javascript that needs to be implemented by me is.
 */
 
 //On Window Load Initialize the FlexSlider Plugin.

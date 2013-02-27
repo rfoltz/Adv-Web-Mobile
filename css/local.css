@@ -1,3 +1,35 @@
+/*
+File name: local.css
+Author's name: Robert Foltz
+Web site name: www.robertfoltz.com/mobile
+File description: This is the local CSS for my jQuery Mobile Web App, so mobile devices have a better experience with my site.
+*/
+
+/* CSS For Elements I put into the pages. */
+
 #logo-svg {
 	margin-left:10px;
+}
+
+#mePhoto {
+	float:left;
+	margin-right:10px;
+	width:139px;
+	height:213.5px;
+}
+
+.clear {
+	clear:both;
+}
+
+#projectWeb {
+	float:right;
+	width: 182px;
+	height: 356px;
+}
+
+#projectGame {
+	width: 270px;
+	height: 157px;
+	margin-bottom:5px;
 }
