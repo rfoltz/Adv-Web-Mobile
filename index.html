@@ -27,10 +27,15 @@
 </head>
 
 <body>
+	<!-- Every Item usually uses my custom theme "a" which was created using themeroller -->
+
 	<!--Home Page -->
+	<!-- the data-add-back-btn="true" auto generates a back button in the headers -->
 	<div data-role="page" data-theme="a" id="home-page" data-add-back-btn="true">
+		<!-- No header on the home-page because it's really not needed -->
         <!--Saved my logo as a SVG file to save space. -->
     	<object id="logo-svg" data="imgs/logo-black.svg" type="image/svg+xml"></object>
+		<!--Here's the nav bar it's just 2 grids filled with buttons-->
 		<div class="ui-grid-b">
 			<div class="ui-block-a"><a href="#home-page" class="ui-btn-active" data-role="button" data-mini="true" data-icon="home" data-iconpos="top" data-corners="false" data-theme="a">Home</a></div>
 			<div class="ui-block-b"><a href="#about-page" data-role="button" data-mini="true" data-icon="edit" data-iconpos="top" data-corners="false" data-theme="a">About Me</a></div>
@@ -41,10 +46,10 @@
 			<div class="ui-block-b"><a href="#services-page" data-role="button" data-mini="true" data-icon="check" data-iconpos="top" data-corners="false" data-theme="a">Services</a></div>
 		</div><!-- /grid-b -->
     	
+    	<!-- Content -->
         <section data-role="content">
         	<p>Here is my featured work:</p>
             <section class="slider">
-				<!--<div id="actionButton"><a href="projects.html">View more of my Projects</a></div>-->
 				<div class="flexslider">
 				  <ul class="slides">
 					<li>
@@ -70,12 +75,14 @@
 	
 	<!--About Page -->
 	<div data-role="page" data-theme="a" id="about-page" data-add-back-btn="true">
+		<!-- Page header -->
 		<header data-role="header">
             <h1>About Page</h1>
         </header><!-- /header -->
         
         <!--Saved my logo as a SVG file to save space. -->
     	<object id="logo-svg" data="imgs/logo-black.svg" type="image/svg+xml"></object>
+		<!--Here's the nav bar it's just 2 grids filled with buttons-->
 		<div class="ui-grid-b">
 			<div class="ui-block-a"><a href="#home-page" data-role="button" data-mini="true" data-icon="home" data-iconpos="top" data-corners="false" data-theme="a">Home</a></div>
 			<div class="ui-block-b"><a href="#about-page" class="ui-btn-active" data-role="button" data-mini="true" data-icon="edit" data-iconpos="top" data-corners="false" data-theme="a">About Me</a></div>
@@ -86,6 +93,7 @@
 			<div class="ui-block-b"><a href="#services-page" data-role="button" data-mini="true" data-icon="check" data-iconpos="top" data-corners="false" data-theme="a">Services</a></div>
 		</div><!-- /grid-b -->
     	
+    	<!-- Content for the page -->
         <section data-role="content">
         	<h1>About Me!</h1>
         	<img id="mePhoto" src="imgs/robert.jpg" alt="Me, Robert Foltz"/>
@@ -107,11 +115,13 @@
 	
 	<!--Contact Page -->
 	<div data-role="page" data-theme="a" id="contact-page" data-add-back-btn="true">
+		<!--Page header -->
 		<header data-role="header">
             <h1>Contact Page</h1>
         </header><!-- /header -->
         <!--Saved my logo as a SVG file to save space. -->
     	<object id="logo-svg" data="imgs/logo-black.svg" type="image/svg+xml"></object>
+		<!--Here's the nav bar it's just 2 grids filled with buttons-->
 		<div class="ui-grid-b">
 			<div class="ui-block-a"><a href="#home-page" data-role="button" data-mini="true" data-icon="home" data-iconpos="top" data-corners="false" data-theme="a">Home</a></div>
 			<div class="ui-block-b"><a href="#about-page" data-role="button" data-mini="true" data-icon="edit" data-iconpos="top" data-corners="false" data-theme="a">About Me</a></div>
@@ -122,6 +132,7 @@
 			<div class="ui-block-b"><a href="#services-page" data-role="button" data-mini="true" data-icon="check" data-iconpos="top" data-corners="false" data-theme="a">Services</a></div>
 		</div><!-- /grid-b -->
     	
+    	<!--Page content -->
         <section data-role="content">
         	<h1>Contact Me!</h1>
         	<p><span class="bold">Name: </span>Robert Foltz</p>
@@ -145,11 +156,13 @@
 	
 	<!--Projects Page -->
 	<div data-role="page" data-theme="a" id="projects-page" data-add-back-btn="true">
+		<!--Page header -->
 		<header data-role="header">
             <h1>Projects Page</h1>
         </header><!-- /header -->
         <!--Saved my logo as a SVG file to save space. -->
     	<object id="logo-svg" data="imgs/logo-black.svg" type="image/svg+xml"></object>
+		<!--Here's the nav bar it's just 2 grids filled with buttons-->
 		<div class="ui-grid-b">
 			<div class="ui-block-a"><a href="#home-page" data-role="button" data-mini="true" data-icon="home" data-iconpos="top" data-corners="false" data-theme="a">Home</a></div>
 			<div class="ui-block-b"><a href="#about-page" data-role="button" data-mini="true" data-icon="edit" data-iconpos="top" data-corners="false" data-theme="a">About Me</a></div>
@@ -160,6 +173,7 @@
 			<div class="ui-block-b"><a href="#services-page" data-role="button" data-mini="true" data-icon="check" data-iconpos="top" data-corners="false" data-theme="a">Services</a></div>
 		</div><!-- /grid-b -->
     	
+    	<!-- Page Content -->
         <section data-role="content">
 			<h2>My Website</h2>
 			 <a href="https://github.com/rfoltz/Adv-Web"><img id="projectWeb" src="imgs/iphone.png" alt="Mobile Website"/></a>
@@ -187,6 +201,7 @@
         </header><!-- /header -->
         <!--Saved my logo as a SVG file to save space. -->
     	<object id="logo-svg" data="imgs/logo-black.svg" type="image/svg+xml"></object>
+		<!--Here's the nav bar it's just 2 grids filled with buttons-->
 		<div class="ui-grid-b">
 			<div class="ui-block-a"><a href="#home-page" data-role="button" data-mini="true" data-icon="home" data-iconpos="top" data-corners="false" data-theme="a">Home</a></div>
 			<div class="ui-block-b"><a href="#about-page" data-role="button" data-mini="true" data-icon="edit" data-iconpos="top" data-corners="false" data-theme="a">About Me</a></div>
@@ -197,6 +212,7 @@
 			<div class="ui-block-b"><a href="#services-page" class="ui-btn-active" data-role="button" data-mini="true" data-icon="check" data-iconpos="top" data-corners="false" data-theme="a">Services</a></div>
 		</div><!-- /grid-b -->
     	
+    	<!--Page Content -->
         <section data-role="content">
         	<h1>Services</h1>
         	<p>As stated before I am a programmer, I'll program anything and everything. I've used many different technologies old and new, I've worked on Cognos reports for business users and I've worked in Visual Fox pro maintaining an application from around 1994-6. Listed below are the services I provide to customers. But currently at this time since I am in school developing and honing my skills so for the moment I am not providing my services.</p>
