@@ -41,9 +41,10 @@
 			<div class="ui-block-b"><a href="#about-page" data-role="button" data-mini="true" data-icon="edit" data-iconpos="top" data-corners="false" data-theme="a">About Me</a></div>
 			<div class="ui-block-c"><a href="#contact-page" data-role="button" data-mini="true" data-icon="search" data-iconpos="top" data-corners="false" data-theme="a">Contact</a></div>
 		</div><!-- /grid-b -->
-		<div class="ui-grid-a">
+		<div class="ui-grid-b">
 			<div class="ui-block-a"><a href="#projects-page" data-role="button" data-mini="true" data-icon="gear" data-iconpos="top" data-corners="false" data-theme="a">Projects</a></div>
 			<div class="ui-block-b"><a href="#services-page" data-role="button" data-mini="true" data-icon="check" data-iconpos="top" data-corners="false" data-theme="a">Services</a></div>
+			<div class="ui-block-b"><a href="#login-page" data-role="button" data-mini="true" data-icon="grid" data-iconpos="top" data-corners="false" data-theme="a">Login</a></div>
 		</div><!-- /grid-b -->
     	
     	<!-- Content -->
@@ -88,9 +89,10 @@
 			<div class="ui-block-b"><a href="#about-page" class="ui-btn-active" data-role="button" data-mini="true" data-icon="edit" data-iconpos="top" data-corners="false" data-theme="a">About Me</a></div>
 			<div class="ui-block-c"><a href="#contact-page" data-role="button" data-mini="true" data-icon="search" data-iconpos="top" data-corners="false" data-theme="a">Contact</a></div>
 		</div><!-- /grid-b -->
-		<div class="ui-grid-a">
+		<div class="ui-grid-b">
 			<div class="ui-block-a"><a href="#projects-page" data-role="button" data-mini="true" data-icon="gear" data-iconpos="top" data-corners="false" data-theme="a">Projects</a></div>
 			<div class="ui-block-b"><a href="#services-page" data-role="button" data-mini="true" data-icon="check" data-iconpos="top" data-corners="false" data-theme="a">Services</a></div>
+			<div class="ui-block-b"><a href="#login-page" data-role="button" data-mini="true" data-icon="grid" data-iconpos="top" data-corners="false" data-theme="a">Login</a></div>
 		</div><!-- /grid-b -->
     	
     	<!-- Content for the page -->
@@ -127,9 +129,10 @@
 			<div class="ui-block-b"><a href="#about-page" data-role="button" data-mini="true" data-icon="edit" data-iconpos="top" data-corners="false" data-theme="a">About Me</a></div>
 			<div class="ui-block-c"><a href="#contact-page" class="ui-btn-active" data-role="button" data-mini="true" data-icon="search" data-iconpos="top" data-corners="false" data-theme="a">Contact</a></div>
 		</div><!-- /grid-b -->
-		<div class="ui-grid-a">
+		<div class="ui-grid-b">
 			<div class="ui-block-a"><a href="#projects-page" data-role="button" data-mini="true" data-icon="gear" data-iconpos="top" data-corners="false" data-theme="a">Projects</a></div>
 			<div class="ui-block-b"><a href="#services-page" data-role="button" data-mini="true" data-icon="check" data-iconpos="top" data-corners="false" data-theme="a">Services</a></div>
+			<div class="ui-block-b"><a href="#login-page" data-role="button" data-mini="true" data-icon="grid" data-iconpos="top" data-corners="false" data-theme="a">Login</a></div>
 		</div><!-- /grid-b -->
     	
     	<!--Page content -->
@@ -168,9 +171,10 @@
 			<div class="ui-block-b"><a href="#about-page" data-role="button" data-mini="true" data-icon="edit" data-iconpos="top" data-corners="false" data-theme="a">About Me</a></div>
 			<div class="ui-block-c"><a href="#contact-page" data-role="button" data-mini="true" data-icon="search" data-iconpos="top" data-corners="false" data-theme="a">Contact</a></div>
 		</div><!-- /grid-b -->
-		<div class="ui-grid-a">
-			<div class="ui-block-a"><a href="#projects-page" class="ui-btn-active" data-role="button" data-mini="true" data-icon="gear" data-iconpos="top" data-corners="false" data-theme="a">Projects</a></div>
+		<div class="ui-grid-b">
+			<div class="ui-block-a"><a href="#projects-page" data-role="button" data-mini="true" data-icon="gear" data-iconpos="top" data-corners="false" data-theme="a">Projects</a></div>
 			<div class="ui-block-b"><a href="#services-page" data-role="button" data-mini="true" data-icon="check" data-iconpos="top" data-corners="false" data-theme="a">Services</a></div>
+			<div class="ui-block-b"><a href="#login-page" data-role="button" data-mini="true" data-icon="grid" data-iconpos="top" data-corners="false" data-theme="a">Login</a></div>
 		</div><!-- /grid-b -->
     	
     	<!-- Page Content -->
@@ -207,9 +211,10 @@
 			<div class="ui-block-b"><a href="#about-page" data-role="button" data-mini="true" data-icon="edit" data-iconpos="top" data-corners="false" data-theme="a">About Me</a></div>
 			<div class="ui-block-c"><a href="#contact-page" data-role="button" data-mini="true" data-icon="search" data-iconpos="top" data-corners="false" data-theme="a">Contact</a></div>
 		</div><!-- /grid-b -->
-		<div class="ui-grid-a">
+		<div class="ui-grid-b">
 			<div class="ui-block-a"><a href="#projects-page" data-role="button" data-mini="true" data-icon="gear" data-iconpos="top" data-corners="false" data-theme="a">Projects</a></div>
-			<div class="ui-block-b"><a href="#services-page" class="ui-btn-active" data-role="button" data-mini="true" data-icon="check" data-iconpos="top" data-corners="false" data-theme="a">Services</a></div>
+			<div class="ui-block-b"><a href="#services-page" data-role="button" data-mini="true" data-icon="check" data-iconpos="top" data-corners="false" data-theme="a">Services</a></div>
+			<div class="ui-block-b"><a href="#login-page" data-role="button" data-mini="true" data-icon="grid" data-iconpos="top" data-corners="false" data-theme="a">Login</a></div>
 		</div><!-- /grid-b -->
     	
     	<!--Page Content -->
@@ -223,6 +228,40 @@
         	
         	<h2>Desktop Applications</h2>
         	<p>I provide services that also include desktop applications, when working at Arcline (2000) Inc. I had to maintain and develop new features for their software and have had some experience providing support and development for desktop applications.</p>
+        </section>
+    
+        <footer data-role="footer">
+            <h4>Copyright of Robert Foltz 2013</h4>
+        </footer><!-- /footer -->
+	</div><!-- /page -->
+	
+	
+	<!--Business Contacts Login Page -->
+	<div data-role="page" data-theme="a" id="login-page" data-add-back-btn="true">
+		<header data-role="header">
+            <h1>Business Contacts</h1>
+        </header><!-- /header -->
+        <!--Saved my logo as a SVG file to save space. -->
+    	<object id="logo-svg" data="imgs/logo-black.svg" type="image/svg+xml"></object>
+		<!--Here's the nav bar it's just 2 grids filled with buttons-->
+		<div class="ui-grid-b">
+			<div class="ui-block-a"><a href="#home-page" data-role="button" data-mini="true" data-icon="home" data-iconpos="top" data-corners="false" data-theme="a">Home</a></div>
+			<div class="ui-block-b"><a href="#about-page" data-role="button" data-mini="true" data-icon="edit" data-iconpos="top" data-corners="false" data-theme="a">About Me</a></div>
+			<div class="ui-block-c"><a href="#contact-page" data-role="button" data-mini="true" data-icon="search" data-iconpos="top" data-corners="false" data-theme="a">Contact</a></div>
+		</div><!-- /grid-b -->
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><a href="#projects-page" data-role="button" data-mini="true" data-icon="gear" data-iconpos="top" data-corners="false" data-theme="a">Projects</a></div>
+			<div class="ui-block-b"><a href="#services-page" data-role="button" data-mini="true" data-icon="check" data-iconpos="top" data-corners="false" data-theme="a">Services</a></div>
+		</div><!-- /grid-b -->
+    	
+    	<!--Page Content -->
+        <section data-role="content">
+        	<h1>Login to see Business Contacts</h1>
+        	<form action="#" method="post">
+				Username:<input type="text" name="username">
+				Password:<input type="password" name="password">
+				<input style="float:right;" type="submit" value="Login">
+			</form>
         </section>
     
         <footer data-role="footer">
