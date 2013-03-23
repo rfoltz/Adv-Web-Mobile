@@ -56,7 +56,7 @@
     	<!-- Content -->
         <section data-role="content" >
         	<h1>Log into Business Contacts</h1>
-        	<form action="<?php echo $loginFormAction; ?>" method="POST" enctype="multipart/form-data" id="login_form">
+        	<form data-ajax="false" action="<?php echo $loginFormAction; ?>" method="POST" enctype="multipart/form-data" id="login_form">
 				<label for="username">Username:</label>
 				<input type="text" id="username" name="username">
 				<label for="password">Password:</label>
