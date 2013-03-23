@@ -1,3 +1,6 @@
+<?php require_once('Connections/dbConnection.php'); ?>
+<?php require_once('Connections/authorize.php'); ?>
+
 <!DOCTYPE html> 
 <html>
 <head>
@@ -31,40 +34,35 @@
 
 	<!--Home Page -->
 	<!-- the data-add-back-btn="true" auto generates a back button in the headers -->
-	<div data-role="page" data-theme="a" id="home-page" data-add-back-btn="true">
+	<div data-role="page" data-theme="a" id="login-page" data-add-back-btn="true">
+		<header data-role="header">
+            <h1>Login</h1>
+        </header><!-- /header -->
 		<!-- No header on the home-page because it's really not needed -->
         <!--Saved my logo as a SVG file to save space. -->
     	<object id="logo-svg" data="imgs/logo-black.svg" type="image/svg+xml"></object>
 		<!--Here's the nav bar it's just 2 grids filled with buttons-->
 		<div class="ui-grid-b">
-			<div class="ui-block-a"><a href="index.php" class="ui-btn-active" data-role="button" data-mini="true" data-icon="home" data-iconpos="top" data-corners="false" data-theme="a">Home</a></div>
+			<div class="ui-block-a"><a href="index.php" data-role="button" data-mini="true" data-icon="home" data-iconpos="top" data-corners="false" data-theme="a">Home</a></div>
 			<div class="ui-block-b"><a href="about.php" data-role="button" data-mini="true" data-icon="edit" data-iconpos="top" data-corners="false" data-theme="a">About Me</a></div>
 			<div class="ui-block-c"><a href="contact.php" data-role="button" data-mini="true" data-icon="search" data-iconpos="top" data-corners="false" data-theme="a">Contact</a></div>
 		</div><!-- /grid-b -->
 		<div class="ui-grid-b">
 			<div class="ui-block-a"><a href="projects.php" data-role="button" data-mini="true" data-icon="gear" data-iconpos="top" data-corners="false" data-theme="a">Projects</a></div>
 			<div class="ui-block-b"><a href="services.php" data-role="button" data-mini="true" data-icon="check" data-iconpos="top" data-corners="false" data-theme="a">Services</a></div>
-			<div class="ui-block-b"><a href="login.php" data-role="button" data-mini="true" data-icon="grid" data-iconpos="top" data-corners="false" data-theme="a">Login</a></div>
+			<div class="ui-block-b"><a href="login.php" class="ui-btn-active" data-role="button" data-mini="true" data-icon="grid" data-iconpos="top" data-corners="false" data-theme="a">Login</a></div>
 		</div><!-- /grid-b -->
     	
     	<!-- Content -->
-        <section data-role="content">
-        	<p>Here is my featured work:</p>
-            <section class="slider">
-				<div class="flexslider">
-				  <ul class="slides">
-					<li>
-					<a href="#projects-page"><img src="imgs/mobile.png" alt="iPhone Image"/></a>
-					</li>
-					<li>
-					 <a href="#projects-page"><img src="imgs/game.png" alt="Game Image"/></a>
-					</li>
-					<li>
-					 <a href="#projects-page"><img src="imgs/youtube.png" alt="Youtube Image"/></a>
-					</li>
-				  </ul>
-				</div>
-			  </section>
+        <section data-role="content" >
+        	<h1>Log into Business Contacts</h1>
+        	<form action="<?php echo $loginFormAction; ?>" method="POST" enctype="multipart/form-data" id="login_form">
+				<label for="username">Username:</label>
+				<input type="text" id="username" name="username">
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password">
+				<input type="submit" id="password" value="Login">
+			</form>
         </section><!-- /content -->
     
         <footer data-role="footer">

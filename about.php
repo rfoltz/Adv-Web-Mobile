@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!--
-	File name:index.html
+	File name:about.php
 	Author's name: Robert Foltz
 	Web site name: www.robertfoltz.com/mobile
 	File description: This is the jQuery Mobile Web App for my website so mobile devices have a better experience with my site.
@@ -28,17 +28,21 @@
 
 <body>
 	<!-- Every Item usually uses my custom theme "a" which was created using themeroller -->
-
-	<!--Home Page -->
-	<!-- the data-add-back-btn="true" auto generates a back button in the headers -->
-	<div data-role="page" data-theme="a" id="home-page" data-add-back-btn="true">
-		<!-- No header on the home-page because it's really not needed -->
+	
+	
+	<!--About Page -->
+	<div data-role="page" data-theme="a" id="about-page" data-add-back-btn="true">
+		<!-- Page header -->
+		<header data-role="header">
+            <h1>About Page</h1>
+        </header><!-- /header -->
+        
         <!--Saved my logo as a SVG file to save space. -->
     	<object id="logo-svg" data="imgs/logo-black.svg" type="image/svg+xml"></object>
 		<!--Here's the nav bar it's just 2 grids filled with buttons-->
 		<div class="ui-grid-b">
-			<div class="ui-block-a"><a href="index.php" class="ui-btn-active" data-role="button" data-mini="true" data-icon="home" data-iconpos="top" data-corners="false" data-theme="a">Home</a></div>
-			<div class="ui-block-b"><a href="about.php" data-role="button" data-mini="true" data-icon="edit" data-iconpos="top" data-corners="false" data-theme="a">About Me</a></div>
+			<div class="ui-block-a"><a href="index.php" data-role="button" data-mini="true" data-icon="home" data-iconpos="top" data-corners="false" data-theme="a">Home</a></div>
+			<div class="ui-block-b"><a href="about.php" class="ui-btn-active" data-role="button" data-mini="true" data-icon="edit" data-iconpos="top" data-corners="false" data-theme="a">About Me</a></div>
 			<div class="ui-block-c"><a href="contact.php" data-role="button" data-mini="true" data-icon="search" data-iconpos="top" data-corners="false" data-theme="a">Contact</a></div>
 		</div><!-- /grid-b -->
 		<div class="ui-grid-b">
@@ -47,31 +51,25 @@
 			<div class="ui-block-b"><a href="login.php" data-role="button" data-mini="true" data-icon="grid" data-iconpos="top" data-corners="false" data-theme="a">Login</a></div>
 		</div><!-- /grid-b -->
     	
-    	<!-- Content -->
+    	<!-- Content for the page -->
         <section data-role="content">
-        	<p>Here is my featured work:</p>
-            <section class="slider">
-				<div class="flexslider">
-				  <ul class="slides">
-					<li>
-					<a href="#projects-page"><img src="imgs/mobile.png" alt="iPhone Image"/></a>
-					</li>
-					<li>
-					 <a href="#projects-page"><img src="imgs/game.png" alt="Game Image"/></a>
-					</li>
-					<li>
-					 <a href="#projects-page"><img src="imgs/youtube.png" alt="Youtube Image"/></a>
-					</li>
-				  </ul>
-				</div>
-			  </section>
-        </section><!-- /content -->
+        	<h1>About Me!</h1>
+        	<img id="mePhoto" src="imgs/robert.jpg" alt="Me, Robert Foltz"/>
+        	<p>Title: Programmer Analyst<p>
+        	<p>School: Georgian College<p>
+        	<p>Favourite Quote: "Truth as always, will be far stranger." - Aurthur C. Clarke</p>
+        	<p class="clear">Hi I'm Robert, I program just about anything and everything.</p>
+        	<p class="clear">My mission is to become a great programmer. I want to do this because 1. Programming is awesome! 2. Makes me feel cool making something someone might appreciate and 3. Because there's such cool things you can learn from programming.</p>
+        	<h2>Bio</h2>
+        	<p>Well I've worked in the varying sizes of businesses, small, medium and large corporations. I've done many things from working with customers to resolve issues with software to working with the vice presidents of divisions. I've also worked with old and new programming languages which gave me great insite. Below you will find my CV in PDF form.</p>
+        	<a href="media/Robert-Foltz-CV.pdf" data-rel="external">Robert Foltz CV</a>
+        </section>
     
         <footer data-role="footer">
             <h4>Copyright of Robert Foltz 2013</h4>
-            <h4><a data-rel="external" href="http://www.robertfoltz.com/test/?full=true">Full Site</a></h4>
         </footer><!-- /footer -->
 	</div><!-- /page -->
+
 	
 	<!-- Load my JS and Plugins at the bottom for site speed -->
 	<script src="js/jquery.flexslider-min.js"></script>

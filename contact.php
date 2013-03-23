@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!--
-	File name:index.html
+	File name: contact.php
 	Author's name: Robert Foltz
 	Web site name: www.robertfoltz.com/mobile
 	File description: This is the jQuery Mobile Web App for my website so mobile devices have a better experience with my site.
@@ -29,17 +29,19 @@
 <body>
 	<!-- Every Item usually uses my custom theme "a" which was created using themeroller -->
 
-	<!--Home Page -->
-	<!-- the data-add-back-btn="true" auto generates a back button in the headers -->
-	<div data-role="page" data-theme="a" id="home-page" data-add-back-btn="true">
-		<!-- No header on the home-page because it's really not needed -->
+	<!--Contact Page -->
+	<div data-role="page" data-theme="a" id="contact-page" data-add-back-btn="true">
+		<!--Page header -->
+		<header data-role="header">
+            <h1>Contact Page</h1>
+        </header><!-- /header -->
         <!--Saved my logo as a SVG file to save space. -->
     	<object id="logo-svg" data="imgs/logo-black.svg" type="image/svg+xml"></object>
 		<!--Here's the nav bar it's just 2 grids filled with buttons-->
 		<div class="ui-grid-b">
-			<div class="ui-block-a"><a href="index.php" class="ui-btn-active" data-role="button" data-mini="true" data-icon="home" data-iconpos="top" data-corners="false" data-theme="a">Home</a></div>
+			<div class="ui-block-a"><a href="index.php" data-role="button" data-mini="true" data-icon="home" data-iconpos="top" data-corners="false" data-theme="a">Home</a></div>
 			<div class="ui-block-b"><a href="about.php" data-role="button" data-mini="true" data-icon="edit" data-iconpos="top" data-corners="false" data-theme="a">About Me</a></div>
-			<div class="ui-block-c"><a href="contact.php" data-role="button" data-mini="true" data-icon="search" data-iconpos="top" data-corners="false" data-theme="a">Contact</a></div>
+			<div class="ui-block-c"><a href="contact.php" class="ui-btn-active" data-role="button" data-mini="true" data-icon="search" data-iconpos="top" data-corners="false" data-theme="a">Contact</a></div>
 		</div><!-- /grid-b -->
 		<div class="ui-grid-b">
 			<div class="ui-block-a"><a href="projects.php" data-role="button" data-mini="true" data-icon="gear" data-iconpos="top" data-corners="false" data-theme="a">Projects</a></div>
@@ -47,29 +49,24 @@
 			<div class="ui-block-b"><a href="login.php" data-role="button" data-mini="true" data-icon="grid" data-iconpos="top" data-corners="false" data-theme="a">Login</a></div>
 		</div><!-- /grid-b -->
     	
-    	<!-- Content -->
+    	<!--Page content -->
         <section data-role="content">
-        	<p>Here is my featured work:</p>
-            <section class="slider">
-				<div class="flexslider">
-				  <ul class="slides">
-					<li>
-					<a href="#projects-page"><img src="imgs/mobile.png" alt="iPhone Image"/></a>
-					</li>
-					<li>
-					 <a href="#projects-page"><img src="imgs/game.png" alt="Game Image"/></a>
-					</li>
-					<li>
-					 <a href="#projects-page"><img src="imgs/youtube.png" alt="Youtube Image"/></a>
-					</li>
-				  </ul>
-				</div>
-			  </section>
-        </section><!-- /content -->
+        	<h1>Contact Me!</h1>
+        	<p><span class="bold">Name: </span>Robert Foltz</p>
+        	<p><span class="bold">Phone Number: </span><a href="tel:+17057964981">1-705-796-4981</a></p>
+        	<p><span class="bold">Address: </span>34 Curtiss Court, Barrie, Ontario, Canada</p>
+        	<p><span class="bold">Email: </span><a href="mailto:me@robertfoltz.com">me@robertfoltz.com</a></p>
+        	
+        	<h2>Follow me on one of these networks!</h2>
+        	<a href="//plus.google.com/109073700143949670409?prsrc=3" rel="publisher" style="text-decoration:none;">
+			<img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" style="border:0;width:32px;height:32px;"/></a>
+			<a href="//ca.linkedin.com/pub/robert-foltz/63/b61/593" rel="" style="text-decoration:none;">
+			<img src="imgs/linkedin_32.png" alt="LinkedIn" style="border:0;width:32px;height:32px;"/></a>
+			<a href="http://www.youtube.com/user/FatherBadT0uch?feature=creators_cornier-%2F%2Fs.ytimg.com%2Fyt%2Fimg%2Fcreators_corner%2FYouTube%2F40x40_yt_red.png"><img src="//s.ytimg.com/yt/img/creators_corner/YouTube/40x40_yt_red.png" style="width:32px; height:32px;" alt="Subscribe to me on YouTube"/></a><img src="//www.youtube-nocookie.com/gen_204?feature=creators_cornier-//s.ytimg.com/yt/img/creators_corner/YouTube/40x40_yt_red.png" style="display: none"/>
+        </section>
     
         <footer data-role="footer">
             <h4>Copyright of Robert Foltz 2013</h4>
-            <h4><a data-rel="external" href="http://www.robertfoltz.com/test/?full=true">Full Site</a></h4>
         </footer><!-- /footer -->
 	</div><!-- /page -->
 	
