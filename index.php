@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!--
-	File name:index.html
+	File name:index.php
 	Author's name: Robert Foltz
 	Web site name: www.robertfoltz.com/mobile
 	File description: This is the jQuery Mobile Web App for my website so mobile devices have a better experience with my site.

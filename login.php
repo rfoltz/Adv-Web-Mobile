@@ -5,10 +5,10 @@
 <html>
 <head>
 	<!--
-	File name:index.html
+	File name: login.php
 	Author's name: Robert Foltz
 	Web site name: www.robertfoltz.com/mobile
-	File description: This is the jQuery Mobile Web App for my website so mobile devices have a better experience with my site.
+	File description: This is the page where users go to log into the business contacts.
 	-->
 
 	<title>Robert Foltz's Portfolio</title>

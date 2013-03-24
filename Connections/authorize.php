@@ -3,7 +3,7 @@
 Name:Robert Foltz
 Last Modified By: Robert Foltz
 Website Name: Robert Folt's Portfolio
-File Description: This is the page logs in the user to the contacts.php page.
+File Description: This is the page that logs in the user to the contacts.php page.
 */
 
 

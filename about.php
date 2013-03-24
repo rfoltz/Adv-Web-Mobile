@@ -2,10 +2,10 @@
 <html>
 <head>
 	<!--
-	File name:about.php
+	File name: about.php
 	Author's name: Robert Foltz
 	Web site name: www.robertfoltz.com/mobile
-	File description: This is the jQuery Mobile Web App for my website so mobile devices have a better experience with my site.
+	File description: This is the about me page.
 	-->
 
 	<title>Robert Foltz's Portfolio</title>

@@ -1,3 +1,10 @@
+-- Source File: dbscript.sql
+-- Name:Robert Foltz
+-- Last Modified By: Robert Foltz
+-- Website Name: Robert Folt's Portfolio
+-- File Description: This is the script used to create my database this also includes some inserts for information.
+
+
 CREATE DATABASE robertfo_advweb;
 
 CREATE TABLE robertfo_advweb.users
